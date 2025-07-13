@@ -22,11 +22,6 @@ MCFinance/
 ├── daily_data_with_missing.csv # Original daily data with missing values
 ├── hourly_data_with_missing.csv # Original hourly data with missing values
 └── plots/                      # Generated visualizations
-    ├── AR_model.png            # Autoregressive model fits
-    ├── AIC_BIC.png             # Model selection criteria
-    ├── seasonal_decompose.png   # Time series decomposition
-    ├── residual_*.png          # Residual analysis plots
-    └── *.png                   # Additional analysis plots
 ```
 
 ## Key Components
