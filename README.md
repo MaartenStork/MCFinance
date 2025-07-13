@@ -103,27 +103,6 @@ pip install tqdm jupyter
    - AR model fitting and validation
    - Weather derivative pricing
 
-## Key Results
-
-### Variance Swaps
-
-- Derives exact analytical formula for fair variance strike under Heston model
-- Demonstrates replication using log-contracts and dynamic hedging
-- Shows power of no-arbitrage arguments in complete markets
-
-### Asian Options
-
-- Implements efficient Monte Carlo pricing with variance reduction
-- Achieves order-of-magnitude improvement in simulation efficiency using control variates
-- Compares Euler vs. Milstein discretization schemes
-
-### Weather Derivatives
-
-- Develops bespoke seasonal mean-reverting model for Amsterdam temperatures
-- Fits AR(7) model to deseasonalized residuals
-- Demonstrates Monte Carlo pricing for heating/cooling degree day contracts
-- Highlights importance of careful model calibration for non-financial underlyings
-
 ## References
 
 The implementation builds upon foundational work in computational finance, particularly Boyle (1977) and extends to modern applications in stochastic volatility and weather derivatives. The project showcases how Monte Carlo methods bridge theoretical finance with practical implementation challenges.
